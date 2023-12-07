@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.thlogo{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 120px;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.signup-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.signup-title{
+    padding-right: 270px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.signup-form{
+    background-color: #e8f1f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 480px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: #e8f1f5;
+    margin-top: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.signup-form input{
+    width: 350px;
+    height: 30px;
+    background: transparent;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.signup-form input:focus{
+    border-bottom-color: #004a7c;
+}
+
+.signup-button{
+    width: 350px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #004a7c;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    border-color: #004a7c;
+    transition: 0.2s;
+    color: #e8f1f5;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.signup-button:hover{
+    background-color: #005691;
+    border-color: #005691;
+}
+
+.footer-text {
+    padding-left: 190px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.login-text{
+    text-decoration: none;
+    color: #004a7c;
+    font-weight: bold;
+}
+
+.register-error-text{
+    color: #8b0000;
+    font-size: 11px;
+    background-color: #ffcccb;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
